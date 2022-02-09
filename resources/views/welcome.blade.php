@@ -41,7 +41,7 @@
 
 <div id=indexTitle>
     <h1 class="indexText1"> ノア・ロス【Noah Roth】</h1>
-    <h3 class="indexText2">When the going get's tough, I fight on.</h3>
+    <h3 class="indexText2">When the going gets tough, I fight on.</h3>
 </div>
 <div class="journey-pictures">
     <a href="https://en.wikipedia.org/wiki/E7_and_W7_Series_Shinkansen" target="_blank" rel="noopener noreferrer">
@@ -104,13 +104,12 @@
                    rel="noopener noreferrer"><img class="hz" src="img/hz-logo.png" alt="HZ University Logo"
                                                   height=50></a></li>
         </ul>
-        <!--A list of citations so I don't get arrested for plagarism or copyright violation-->
+        <!--A list of citations so I don't get arrested for plagiarism or copyright violation-->
         <h3>Works Cited</h3>
         <p>Tomori, Teruhide. Akita Shinkansen KOMACHI. E6 Series Bullet Train.
             "https://www.flickr.com/photos/kamomebird/39239086411/in/photostream/"</p>
         <p>Japan Rail & Travel. W7 Series Shinkansen.
             "https://japanrailandtravel.com/trains/jr-west/kagayaki-e7-w7-series/"</p>
-        </p>
     </footer>
 </aside>
 </body>

@@ -45,7 +45,7 @@
     <p id="answer">A: By simply connecting to one of the printers at school. Scan your ID card on the kiosk, select the document to print and hit print. €2 in your HZ account should be
         sufficient for a year's worth of printing.</p>
     <h5>Q: How can you scan a document and send it to your laptop at HZ?</h5>
-    <p id="answer">A: Use the same printer, scan your paper and it will send it to your email. Annoyingly, you need to have a balance in your HZ account despite scanning being free...</p>
+    <p id="answer">A: Use the same printer, scan your paper, and it will send it to your email. Annoyingly, you need to have a balance in your HZ account despite scanning being free...</p>
     <h5>Q: What do you need to do when you are sick/show symptoms of coronavirus?</h5>
     <p id="answer">A: Contact the teachers/helpdesk at school and stay home. Follow the lessons online to keep up
         with the class.</p>

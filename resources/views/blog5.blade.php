@@ -8,7 +8,7 @@
     <title>ICT Field Work</title>
     <meta name="description"
           content="Software Engineers spend a day on the farm. I've been informed that is not the case, and in fact this is a blog about companies.">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="\css\style.css">
 </head>
 
 <body id="background">
@@ -41,18 +41,18 @@
     <div class="journey-text">
         <p>
             They were calling this event a "company safari," but for some reason that didn't sit very well with me.
-            Instead, I made my own title for it in all it's boringness. This blog talks about three ICT companies -
-            some of which were done as a *suprise* group project - and what they do and where they are located.
+            Instead, I made my own title for it in all it's drabness. This blog talks about three ICT companies -
+            some of which were done as a *surprise* group project - and what they do and where they are located.
         </p>
         <h4>
             Company 1: Accenture
         </h4>
         <p>
             Congratulations to the team at Accenture for creating the most uninspiring and boring logo and company
-            name - even their website shares the same stiff upper lip and unoffensiveness, with all the creativity
+            name - even their website shares the same stiff upper lip and inoffensiveness, with all the creativity
             of a fax machine. Business jargon on their website makes up a significant portion of the text, which I
             guess is to be expected because they're a consulting company. Seriously, how boring can you get? While
-            they do boast lots of offices in the Netherlands and seem to be intersted in future programmers - they
+            they do boast lots of offices in the Netherlands and seem to be interested in future programmers - they
             even have some internships displayed prominently on their boring website - they also have a lot of dead
             links on the pages that would otherwise tell you more about their opportunities. Safe to say this one is
             a company of last resort.
@@ -62,10 +62,10 @@
             DXC Technology are an American technology corporation based in Tysons, Virginia. They specialize in
             business to business situations, which I believe means transactions between companies, and in various
             cloud based services. I know this
-            company prior to this project from their sponsoring of an Indycar on a few occasions - proof that
+            company prior to this project from their sponsoring of an Indycar occasionally - proof that
             advertising in motorsport is effective marketing! Although I initially thought they were limited to
             offices in just America, it seems they have a much larger span than just the states. DXC has offices
-            around the world, with over 100,000 employees. They offer a 12 month program with the company, which
+            around the world, with over 100,000 employees. They offer a 12-month program with the company, which
             sounds a lot like an internship. With that said, I struggle to find evidence of a DXC location within
             the Netherlands.
         </p>
@@ -80,14 +80,14 @@
         </p>
     </div>
     <div class="journey-pictures">
-        <img src="img/e5.jfif" alt="An E5 Shinkansen (Sukhoi37)" class="imgsize">
+        <img src="/img/e5.jfif" alt="An E5 Shinkansen (Sukhoi37)" class="imgsize">
         <h6>An E5 Shinkansen (Sukhoi37).</h6>
-        <img src="img/accenture.png" alt="Accenture's incredibly boring logo" class="imgsize">
+        <img src="/img/accenture.png" alt="Accenture's incredibly boring logo" class="imgsize">
         <h6>Accenture's incredibly boring logo (Appian).</h6>
-        <img src="img/dxc.jpg" alt="Simon Pagenaud running a DXC Technology livery at Laguna Seca in 2019"
+        <img src="/img/dxc.jpg" alt="Simon Pagenaud running a DXC Technology livery at Laguna Seca in 2019"
              class="imgsize">
         <h6>Simon Pagenaud running a DXC Technology livery at Laguna Seca in 2019 <br>(Prysquel).</h6>
-        <img src="img/ntt.jpg" alt="An NTT liveried Indycar"
+        <img src="/img/ntt.jpg" alt="An NTT liveried Indycar"
              class="imgsize">
         <h6>An NTT liveried Indycar (Jaggers).</h6>
     </div>

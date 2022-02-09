@@ -51,7 +51,7 @@
         <p> Most of my limited coding experience comes from engineering, math and science classes taken at Molalla High
             School.
         </p>
-        <h2>Extra-Curricular Activites</h2>
+        <h2>Extra-Curricular Activities</h2>
         <p>I was really hoping to continue my competitive running "career" in the Netherlands, but I haven't found a club
             team in the area that I could run for. I'm still doing a lot of running and biking though, in hopes that I
             somehow
@@ -71,7 +71,7 @@
         <p>I want to continue doing my hobbies, such as video production and sim racing, but these have mostly been
             put aside as I put time into learning Nederlands.</p>
         <p>Once I feel like I've gotten an understanding of the workload for this program, I'll evaluate whether I have
-            time to get a job. At the moment though, I am enjoying life and making Youtube videos in my limited free time.
+            time to get a job. At the moment though, I am enjoying life and making YouTube videos in my limited free time.
         </p>
     </article>
     <aside>
@@ -79,7 +79,7 @@
             <h3>Works Cited</h3>
             <p>Stefan1978-1. "Thalys (TGV)." fotocommunity,
                 https://www.fotocommunity.de/photo/thalys-tgv-stefan1978-1/33224723
-            <p>Laborde, Jerome. "A JR East E6 series shinkansen set near Akita on an Akita Shinkansen Super Komachi
+            <p>Laborde, Jerome. "A JR East E6 series Shinkansen set near Akita on an Akita Shinkansen Super Komachi
                 service."</p>
             <p>Wikimedia, 19 February 2014, https://commons.wikimedia.org/wiki/File:Akita_Shinkansen_-_E6_series.jpg
             </p>

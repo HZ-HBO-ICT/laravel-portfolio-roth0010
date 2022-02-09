@@ -9,7 +9,6 @@
     <meta name="description" content="A way to make sure I'm on track to graduate, or stay in the program.">
     <link rel="stylesheet" href="css\style.css">
 </head>
-<body id="background">
 <nav id="flex">
     <h1 id="heading">ノア・ロス【Noah Roth】</h1>
     <ul>
@@ -76,7 +75,7 @@
     </tr>
     <tr class="tbd">
         <td rowspan="2">2</td>
-        <td rowspan="2">Object Oreiented Programming</td>
+        <td rowspan="2">Object Oriented Programming</td>
         <td rowspan="2">10</td>
         <td>Project</td>
         <td></td>

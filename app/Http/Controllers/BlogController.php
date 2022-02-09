@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 class BlogController
 {
-    public function show($post){
+    public function show($post)
+    {
         $posts = [
             'more-field-work' => 'blog10',
             'changelog' => 'blog9',

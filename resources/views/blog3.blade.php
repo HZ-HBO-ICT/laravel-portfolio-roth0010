@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>First Feedback</title>
     <meta name="description" content="I give feedback on my feedback.">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="\css\style.css">
 </head>
 
 <body id="background">
@@ -39,7 +39,7 @@
 <article class="journey-art">
     <div class="journey-text">
         <p>
-            In response to the assignment that has been thoroughly referenced on this blog, I recieved some feedback
+            In response to the assignment that has been thoroughly referenced on this blog, I received some feedback
             from one of my teachers. This is the feedback, and my response to that feedback.
         </p><br>
         <p>
@@ -76,7 +76,7 @@
         </p>
     </div>
     <div class="journey-pictures">
-        <img src="img/skyliner.jpg" alt="A Keisei Skyliner Train in Greater Tokyo" class="imgsize">
+        <img src="/img/skyliner.jpg" alt="A Keisei Skyliner Train in Greater Tokyo" class="imgsize">
         <h6>A Keisei Skyliner Train in Greater Tokyo (Sui-setz).</h6>
     </div>
 </article>

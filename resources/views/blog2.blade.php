@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Programming Experience</title>
     <meta name="description" content="My Experience with programming.">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="\css\style.css">
 </head>
 
 <body id="background">
@@ -43,7 +43,7 @@
             an
             assignment done before the school year even started, called a "study check." Basically this was to check
             and see that the program would be a good fit for me and that I wasn't going to flounder and fall behind.
-            These are the things I said way back in March of 2021 - wow, that was a while ago!
+            These are the things I said way back in March 2021 - wow, that was a while ago!
         </p><br>
         <p>
             Question 1: Do you have any programming experience? I answered yes to this, as I had done some
@@ -71,7 +71,7 @@
         </p>
     </div>
     <div class="journey-pictures">
-        <img src="img/metro2000.jpg" alt="A Tokyo Metro 2000 Series train on the Marunouchi Line" class="imgsize">
+        <img src="/img/metro2000.jpg" alt="A Tokyo Metro 2000 Series train on the Marunouchi Line" class="imgsize">
         <h6>A Tokyo Metro 2000 Series train on the Marunouchi Line (Grunty89).</h6>
     </div>
 </article>

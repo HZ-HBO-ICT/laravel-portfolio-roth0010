@@ -42,7 +42,7 @@
 <article class="journey-art">
     <div class="journey-text">
         <p>Welcome to the landing page for my "blog," that will definitely get updates past the grading of this
-            assingment... Feel free to look around.</p>
+            assignment... Feel free to look around.</p>
         <h4><a id="backinblack" href="blog\more-field-work">More ICT Field Work</a></h4>
         <p>I chose some more companies to talk about, and they're a lot more interesting this time.</p><br>
         <h4><a id="backinblack" href="blog\changelog">Changelog v1.1</a></h4>

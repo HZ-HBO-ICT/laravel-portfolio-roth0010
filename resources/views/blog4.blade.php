@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Blog</title>
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="\css\style.css">
 </head>
 
 <body id="background">
@@ -41,7 +41,7 @@
             This blog is a summary of my strengths and weaknesses, coming straight from the study check I did a few
             months ago. It follows the SWOT format - Strengths, Weaknesses, Opportunities, Threats - to analyse
             one's self.
-            That was way back in March of 2021 - wow, that was a while ago!
+            That was way back in March 2021 - wow, that was a while ago!
         </p><br>
         <p>
             Strengths: What do you do best? What are your positive traits? I definitely feel that I pay attention to minor details, and work hard when I'm interested and engaged in a project
@@ -57,7 +57,7 @@
         </p><br>
     </div>
     <div class="journey-pictures">
-        <img src="img/e353.jpg" alt="A JR East E353" class="imgsize">
+        <img src="/img/e353.jpg" alt="A JR East E353" class="imgsize">
         <h6>A JR East E353 (Adler).</h6>
     </div>
 </article>
@@ -65,7 +65,6 @@
     <h3>Works Cited</h3>
     <p>Adler, George. trainspo.com. Test run of JR East's new limited express EMU.
         "https://trainspo.com/photo/75178/"
-    </p>
     </p>
 </footer>
 </body>

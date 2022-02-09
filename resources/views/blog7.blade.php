@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Pitch</title>
     <meta name="description" content="About my presentation, not a Baseball game.">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="\css\style.css">
 </head>
 
 <body id="background">
@@ -43,20 +43,20 @@
             It came time to test myself against the standards for this project - presenting the website I had
             constructed over the two prior weeks as I made it up as I went. Some aspects went well - I consider
             myself to be a gifted speaker in some aspects - while others were in need of improvement, website
-            included. The website, with it's old blocky Navbar in crimson red and white color scheme, with its grey
+            included. The website, with its old blocky Navbar in crimson red and white color scheme, with its grey
             accents. While I mocked a consultancy company for their boring, unoffensive website, it was I who was
-            the hypocrite, as this edition of the webste lacked style in much the same way. The philosiphy behind
+            the hypocrite, as this edition of the websizte lacked style in much the same way. The philosophy behind
             the homepage needed work - less is more, and I had put a wall of text or two in that page to make up for
             something? It needed to be redone. The internals of the website also needed a clean - some inline
             styling was hastily put in when HTML refused to cooperate, a temporary bandage that needed fixing before
             the next showcasing. Others watched as I failed to give insights into the website, probably under the
-            pressure, forgetting some of the intricate details baked into the site that I brought from the depths of
-            my interests. There was much room for imporevement, in style, construction, and presentation, but at
-            least all the pages were there and it didn't look tacky.
+            pressure, forgetting some intricate details baked into the site that I brought from the depths of
+            my interests. There was much room for improvement -  in style, construction, and presentation - but at
+            least all the pages were there, and it didn't look tacky.
         </p>
     </div>
     <div class="journey-pictures">
-        <img src="img/virm.jpg" alt="An NS VIRM in the new Flow livery (Superbock)" class="imgsize">
+        <img src="/img/virm.jpg" alt="An NS VIRM in the new Flow livery (Superbock)" class="imgsize">
         <h6>An NS VIRM in the new "Flow" livery (Superbock)</h6>
     </div>
 </article>

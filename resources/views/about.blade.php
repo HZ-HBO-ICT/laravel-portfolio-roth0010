@@ -61,7 +61,7 @@
             near my house; there was a mural of a typical european town within that coffee shop, where a very young
             Noah
             often said he wanted to live. At one point, I got to ride the local train, which ironically sparked a
-            different passion in my soul: Shinkansen. Youtube was just reaching the realm of the common world at
+            different passion in my soul: Shinkansen. YouTube was just reaching the realm of the common world at
             this
             time, and a young Noah managed to weave his way from train video to train video in advance of that
             special
@@ -84,20 +84,20 @@
             way to
             get around nearly every city - by design, not by accident - and downtowns were destroyed when freeways
             were
-            forced through their neighborhoods. Trains were all but exctinct outside New York City, and even my neck
+            forced through their neighborhoods. Trains were all but extinct outside New York City, and even my neck
             of
-            the woods - one of the more "European like" in the country, was not fortunate enough to recieve train
+            the woods - one of the more "European like" in the country, was not fortunate enough to receive train
             service beyond a few trains per day. I started to set my sights on where in Europe I wanted to move, and
             what I wanted to do.</p>
         <!--Resume novel-->
         <p id="journey">Somewhere along the way, I started a new stage of my life: Martial Arts. I initially started
             because I thought it was cool, but I kept going because I fell in love with the art. Karate taught me
             the
-            aformentioned values that are often reflected in Japan, which was quickly becoming a bit of a holy grail
+            aforementioned values that are often reflected in Japan, which was quickly becoming a bit of a holy grail
             in
             my life. It wasn't until nearly 8 years later that I hung my gi and called it a career, not for a lack
             of
-            interest but for a change of ownership in the dojo that resulted in a lose of the discipline and respect
+            interest but for a change of ownership in the dojo that resulted in a loss of the discipline and respect
             that I had felt when I joined the school years earlier. I also started to seriously look at my option
             for
             engineering at this time, seeing as civil engineering was no longer practical.</p>
@@ -137,11 +137,11 @@
         <p id="journey">The story doesn't stop there though. I came from a small town about an hour drive from
             Portland,
             Oregon. I used to think this was the city I wanted to live in, as it had a decent sneltram system, was
-            fairly welcoming to cycling (not like the Dutch, though), and had some lovely scenary. Unfortunately,
+            fairly welcoming to cycling (not like the Dutch, though), and had some lovely scenery. Unfortunately,
             the
-            city's opinion on expanding it's country leading sneltram system had started to change, as they voted
+            city's opinion on expanding its country leading sneltram system had started to change, as they voted
             down
-            an important extension of the system last year. This was ultimately the straw that broke the camels
+            an important extension of the system last year. This was ultimately the straw that broke the camel's
             back,
             combined with the divisions in America over mundane issues, poor urban planning and lack of options for
             transportation. I decided I was done with America and going to do everything in my power to leave. I had
@@ -162,13 +162,13 @@
             infrastructure of the Netherlands (Side note: I've realised I can walk to places far easier in Europe
             than I
             had initially guessed, so maybe dense cities like Dublin should've been given more credit). France lost
-            because of the complexity of French, Denmark lost because Danish is unintelligable, and the Nordic
+            because of the complexity of French, Denmark lost because Danish is unintelligible, and the Nordic
             countries
             lost because I doubt I could survive with that little sunlight in the winter.</p>
-        <p id="journey">The biggest suprise to me in this process was the land of the rising sun, Japan, which lost
+        <p id="journey">The biggest surprise to me in this process was the land of the rising sun, Japan, which lost
             out
             early
-            because of the countries opinion towards foreigners. Finding an apartment, making friends, everything is
+            because of the country's opinion towards foreigners. Finding an apartment, making friends, everything is
             hard in Japan if you aren't Japanese, which ultimately meant I had to remove it from my options. It's
             still
             an incredible country that I definitely plan on visiting if and when I'm fluent in Japanese (I'm
@@ -179,9 +179,9 @@
             have a
             plan of how to get myself to the Netherlands - it's difficult, nay impossible to get a job as a US
             citizen
-            for a multitude of reasons. My best hope was to manage to hit the jackpot and create a Youtube channel
+            for a multitude of reasons. My best hope was to manage to hit the jackpot and create a YouTube channel
             that
-            could support me, making myself self employed and having a far easier time moving to Nederland. Once
+            could support me, making myself self-employed and having a far easier time moving to Nederland. Once
             again,
             in hindsight this was a foolish idea that was never going to work, but it did succeed in giving myself a
             new
@@ -199,14 +199,14 @@
             University, like in Nijmegen or Maastricht, but those required 4 AP tests. I had taken one of those at
             the
             time and was scheduled to take another one in the spring, but that would be only two tests.
-            Additionally, some of the tests the universities wanted were for classes my school didn't even offer. I
+            Additionally, some tests the universities wanted were for classes my school didn't even offer. I
             was
             clearly not going to make it to these bigger colleges, so I had to start looking elsewhere. I found the
             wikipedia page for HBO colleges in the Netherlands and checked the websites of every single college to
             see
-            which even had my area of studies. These were then compared, ranked on things like location, likelyhood
+            which even had my area of studies. These were then compared, ranked on things like location, likelihood
             of
-            getting housing, tuition, and I then prepared to apply. I initially applied for another college, Saxion
+            getting housing, tuition, and I then prepared to apply. I initially applied to another college, Saxion
             in
             Deventer, but on a whim I also applied to HZ. This would be a saving grace. Saxion failed to reply to
             any of
