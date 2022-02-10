@@ -20,6 +20,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PostController;
 
 
 
@@ -28,6 +29,8 @@ use App\Http\Controllers\ProfileController;
 //});
 
 Route::get('/blog/{post}', [BlogController::class, 'show']);
+
+Route::get('/post/{post}', [PostController::class, 'show']);
 
 Route::get('/blog', [BlogControllerMaster::class, 'show']);
 

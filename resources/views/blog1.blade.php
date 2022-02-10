@@ -89,7 +89,6 @@
     <h3>Works Cited</h3>
     <p>Grunty89. Locomotive Wiki. 800 Series Shinkansen.
         "https://locomotive.fandom.com/wiki/800_Series_Shinkansen?file=800_Series_Shinkansen_U008_2015.jpg"</p>
-    </p>
 </footer>
 </body>
 
