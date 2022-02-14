@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 class BlogController
 {
-    public function show($post)
+    public function show($blog)
     {
-        $posts = [
+        $blogs = [
             'more-field-work' => 'blog10',
             'changelog' => 'blog9',
             'pitch-feedback' => 'blog8',
@@ -17,12 +17,13 @@ class BlogController
             'first-feedback' => 'blog3',
             'experience' => 'blog2',
             'study-choice' => 'blog1',
+            'home' => 'blog'
         ];
 
-        if (!array_key_exists($post, $posts)) {
+        if (!array_key_exists($blog, $blogs)) {
             abort(404, 'Sorry, that post was not found.');
         }
 
-        return view($posts[$post]);
+        return view($blogs[$blog]);
     }
 }
