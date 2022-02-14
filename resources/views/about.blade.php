@@ -1,42 +1,12 @@
-<!DOCTYPE html>
-<html lang=en>
+@extends('layout')
 
-<head>
-    <!--Setting up settings, I think-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Title for the page on the tab thingy-->
+@section('meta')
     <title>My Story</title>
     <!--Description that will appear in Google search results-->
     <meta name="description" content="Why I chose to pursue a career in ICT.">
-    <link rel="stylesheet" href="css\style.css">
-</head>
+@endsection
 
-<body>
-<nav id="flex">
-    <h1 id="heading">ノア・ロス【Noah Roth】</h1>
-    <ul>
-        <li id="font">
-            <a href="\blog">Blog</a>
-        </li>
-        <li id="font">
-            <a href="\faq">FAQ</a>
-        </li>
-        <li id="font">
-            <a href="\dashboard">Dashboard</a>
-        </li>
-        <li id="font">
-            <a href="\profile">Profile</a>
-        </li>
-        <li id="font">
-            <a class="current" href="\about">My Story</a>
-        </li>
-        <li id="font">
-            <a href="\">Home</a>
-        </li>
-    </ul>
-</nav>
+@section('content')
 
 <div id="myStoryTitle">
     <h1 class="myStoryText">Here's my story</h1>
@@ -288,10 +258,9 @@
         </div>
     </div>
 </article>
-<aside>
-    <!--This is technically just a footer, but the requirements want me to use the aside for this section. It'll be gone at the first opportunity following grading.-->
-    <footer class="move" id="font">
-        <h3>Works Cited</h3>
+@endsection
+
+@section('citation')
         <p>ACPRail. E6 Shinkansen in the rice fields.
             "https://www.acprail.com/rail-passes/japan-rail/bullet-train/akita-shinkansen/"</p>
         <p>ACPRail. E3 Tsubasa Shinkansen.
@@ -309,8 +278,4 @@
         <p>The Limited Times. Max Verstappen exiting hugenholzbocht at Zandvoort.
             "https://newsrnd.com/sports/2021-09-06-formula-1--madness-in-zandvoort---verstappen-party-and-vettel-tragedy.H1cwob7Mt.html"
         </p>
-    </footer>
-</aside>
-</body>
-
-</html>
+@endsection

@@ -1,39 +1,11 @@
-<!DOCTYPE html>
-<html lang=en>
+@extends('layout')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+@section('meta')
     <title>Programming Experience</title>
     <meta name="description" content="My Experience with programming.">
-    <link rel="stylesheet" href="\css\style.css">
-</head>
+@endsection
 
-<body id="background">
-<nav id="flex">
-    <h1 id="heading">ノア・ロス【Noah Roth】</h1>
-    <ul>
-        <li id="font">
-            <a class="current" href="\blog">Blog</a>
-        </li>
-        <li id="font">
-            <a href="\faq">FAQ</a>
-        </li>
-        <li id="font">
-            <a href="\dashboard">Dashboard</a>
-        </li>
-        <li id="font">
-            <a href="\profile">Profile</a>
-        </li>
-        <li id="font">
-            <a href="\about">My Story</a>
-        </li>
-        <li id="font">
-            <a href="\">Home</a>
-        </li>
-    </ul>
-</nav>
+@section('content')
 <h1 id="welcome">Blog 2: Programming Experience</h1>
 <h4>14 September 2021</h4>
 <article class="journey-art">
@@ -75,13 +47,10 @@
         <h6>A Tokyo Metro 2000 Series train on the Marunouchi Line (Grunty89).</h6>
     </div>
 </article>
-<footer class="move" id="font">
-    <h3>Works Cited</h3>
+@endsection
+
+@section('citation')
     <p>Grunty89. Locomotive Wiki. 2000 Series Tokyo Metro.
         "https://locomotive.fandom.com/wiki/Tokyo_Metro_2000_series?file=Tokyo_Metro_2000_2101_K%25C5%258Drakuen_2019.jpg"
     </p>
-    </p>
-</footer>
-</body>
-
-</html>
+@endsection

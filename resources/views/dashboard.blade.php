@@ -1,39 +1,12 @@
-<!DOCTYPE html>
-<html lang=en>
+@extends('layout')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+@section('meta')
+
     <title>My Dashboard</title>
     <meta name="description" content="A way to make sure I'm on track to graduate, or stay in the program.">
-    <link rel="stylesheet" href="css\style.css">
-</head>
-<nav id="flex">
-    <h1 id="heading">ノア・ロス【Noah Roth】</h1>
-    <ul>
-        <li id="font">
-            <a href="\blog">Blog</a>
-        </li>
-        <li id="font">
-            <a href="\faq">FAQ</a>
-        </li>
-        <li id="font">
-            <a class="current" href="\dashboard">Dashboard</a>
-        </li>
-        <li id="font">
-            <a href="\profile">Profile</a>
-        </li>
-        <li id="font">
-            <a href="\about">My Story</a>
-        </li>
-        <li id="font">
-            <a href="\">Home</a>
-        </li>
-    </ul>
-</nav>
+@endsection
 
-<body id="background">
+@section('content')
 <div class="nbsa">
     <label>Progress towards the NBSA (45 EC Required):</label>
     <progress value="0" max="45"></progress>
@@ -142,6 +115,8 @@
         <td></td>
     </tr>
 </table>
-</body>
+@endsection
 
-</html>
+@section('citation')
+    <p>Nothing to see here</p>
+@endsection

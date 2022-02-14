@@ -1,40 +1,12 @@
-<!DOCTYPE html>
-<html lang=en>
+@extends('layout')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+@section('meta')
     <title>My Motivation</title>
     <meta name="description"
           content="This was too much text to put on the homepage, so it gets it's own blog entry.">
-    <link rel="stylesheet" href="\css\style.css">
-</head>
+@endsection
 
-<body id="background">
-<nav id="flex">
-    <h1 id="heading">ノア・ロス【Noah Roth】</h1>
-    <ul>
-        <li id="font">
-            <a class="current" href="\blog">Blog</a>
-        </li>
-        <li id="font">
-            <a href="\faq">FAQ</a>
-        </li>
-        <li id="font">
-            <a href="\dashboard">Dashboard</a>
-        </li>
-        <li id="font">
-            <a href="\profile">Profile</a>
-        </li>
-        <li id="font">
-            <a href="\about">My Story</a>
-        </li>
-        <li id="font">
-            <a href="\">Home</a>
-        </li>
-    </ul>
-</nav>
+@section('content')
 <h1 id="welcome">Blog 6: My Motivation</h1>
 <h4>10 October 2021</h4>
 <article class="journey-art">
@@ -86,12 +58,10 @@
         <h6>An E257 Train in Japan (Sakuria.ne.jp)</h6>
     </div>
 </article>
-<footer class="move" id="font">
-    <h3>Works Cited</h3>
+@endsection
+
+@section('citation')
     <p>Sakuria.ne.jp. "JR East series E257 2012/02/29 Shinjyuku, Chuo line"
         "http://tekkenweb.sakura.ne.jp/tokyorail/photogallery/pgjre257.html"
     </p>
-</footer>
-</body>
-
-</html>
+@endsection
