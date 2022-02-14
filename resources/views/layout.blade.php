@@ -16,22 +16,22 @@
     <h1 id="heading">ノア・ロス【Noah Roth】</h1>
     <ul>
         <li id="font">
-            <a href="\blog">Blog</a>
+            <a class="{{ Request::is('blog*') ? 'current' : ''}}" href="\blog">Blog</a>
         </li>
         <li id="font">
-            <a href="\faq">FAQ</a>
+            <a class="{{ Request::is('faq') ? 'current' : ''}}" href="\faq">FAQ</a>
         </li>
         <li id="font">
-            <a href="\dashboard">Dashboard</a>
+            <a class="{{ Request::is('dashboard') ? 'current' : ''}}" href="\dashboard">Dashboard</a>
         </li>
         <li id="font">
-            <a href="\profile">Profile</a>
+            <a class="{{ Request::is('profile') ? 'current' : ''}}" href="\profile">Profile</a>
+        </li>
+        <li id="font" >
+            <a class="{{ Request::is('about') ? 'current' : ''}}" href="\about">My Story</a>
         </li>
         <li id="font">
-            <a href="\about">My Story</a>
-        </li>
-        <li id="font">
-            <a class="current" href="\">Home</a>
+            <a class="{{ Request::is('/') ? 'current' : ''}}" href="\">Home</a>
         </li>
     </ul>
 </nav>
