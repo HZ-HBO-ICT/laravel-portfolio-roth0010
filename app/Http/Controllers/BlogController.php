@@ -17,7 +17,6 @@ class BlogController
             'first-feedback' => 'blog3',
             'experience' => 'blog2',
             'study-choice' => 'blog1',
-            'home' => 'blog'
         ];
 
         if (!array_key_exists($blog, $blogs)) {
@@ -25,5 +24,10 @@ class BlogController
         }
 
         return view($blogs[$blog]);
+    }
+
+    public function index()
+    {
+        return view('blog');
     }
 }

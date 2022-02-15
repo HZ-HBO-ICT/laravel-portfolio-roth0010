@@ -16,7 +16,10 @@
     <h1 id="heading">ノア・ロス【Noah Roth】</h1>
     <ul>
         <li id="font">
-            <a class="{{ Request::is('blog*') ? 'current' : ''}}" href="\blog\home">Blog</a>
+            <a class="{{ Request::is('article*') ? 'current' : ''}}" href="\article">Articles</a>
+        </li>
+        <li id="font">
+            <a class="{{ Request::is('blog*') ? 'current' : ''}}" href="\blog">Blog</a>
         </li>
         <li id="font">
             <a class="{{ Request::is('faq') ? 'current' : ''}}" href="\faq">FAQ</a>
