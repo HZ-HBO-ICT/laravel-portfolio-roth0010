@@ -2,7 +2,8 @@
 
 namespace Database\Seeders;
 
-use \Database\Factories\ArticleFactory;
+use App\Models\Article;
+use Database\Factories\ArticleFactory;
 use Illuminate\Database\Seeder;
 
 class ArticleSeeder extends Seeder
@@ -14,8 +15,6 @@ class ArticleSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('articles')->insert([
-            // TODO how do I get the factory to work in here?
-        ]);
+        Article::factory()->count(100)->create();
     }
 }

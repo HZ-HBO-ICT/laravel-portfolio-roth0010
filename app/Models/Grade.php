@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Grade extends Model
 {
 //    use HasFactory;
+
     function addResult($result)
     {
         $now = now();
