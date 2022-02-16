@@ -19,6 +19,8 @@ class Grade extends Model
                 $this->passed_at = $now;
             }
         }
+        $this->save();
+        return 'Done!';
     }
 
     function setLPG(){

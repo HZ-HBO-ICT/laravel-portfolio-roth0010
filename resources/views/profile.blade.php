@@ -9,7 +9,7 @@
     <h2>Personal Information</h2>
     <p>My name is Noah Roth</p>
     <div>
-        <ul id="details" type="circle">
+        <ul id="details">
             <li &bull id="details">I'm 19 Years Old</li>
             <li &bull id="details">I went to Molalla High School on the west coast of the US</li>
             <li &bull id="details">I'm fairly introverted until I get talking about something I'm interested in</li>

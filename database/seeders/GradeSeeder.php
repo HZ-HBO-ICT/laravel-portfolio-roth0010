@@ -17,78 +17,108 @@ class GradeSeeder extends Seeder
         //Todo how to get the timestamps for the passed_at variable to do the thing in models?
         //For now, I'm going to just use the tinker method to add new grades.
         DB::table('grades')->insert([
-            'course_name' => 'PCO',
-            'test_name' => 'PCO_assessment'
+            'course_name' => 'Program and Career Orientation',
+            'test_name' => 'Assessment',
+            'quartile' => '1',
+            'ec' => '2.5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'CSB',
-            'test_name' => 'CSB_exam'
+            'course_name' => 'Computer Science Basics',
+            'test_name' => 'Written Exam',
+            'quartile' => '1',
+            'ec' => '5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'PB',
-            'test_name' => 'PB_case_study'
+            'course_name' => 'Programming Basics',
+            'test_name' => 'Case Study',
+            'quartile' => '1',
+            'ec' => '5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'OOP',
-            'test_name' => 'OOP_case_study'
+            'course_name' => 'Object Oriented Programming',
+            'test_name' => 'Case Study',
+            'quartile' => '2',
+            'ec' => '5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'OOP',
-            'test_name' => 'OOP_project'
+            'course_name' => 'Object Oriented Programming',
+            'test_name' => 'Project',
+            'quartile' => '2',
+            'ec' => '5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'framework_dev',
-            'test_name' => 'framework_case_study'
+            'course_name' => 'Framework Development',
+            'test_name' => 'Case Study',
+            'quartile' => '3',
+            'ec' => '5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'framework_project_1',
-            'test_name' => 'FP1_project'
+            'course_name' => 'Framework Project 1',
+            'test_name' => 'Project',
+            'quartile' => '3',
+            'ec' => '2.5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'framework_project_1',
-            'test_name' => 'FP1_assessment'
+            'course_name' => 'Framework Project 1',
+            'test_name' => 'Assessment',
+            'quartile' => '3',
+            'ec' => '2.5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'framework_project_1',
-            'test_name' => 'FP1_report'
+            'course_name' => 'Framework Project 1',
+            'test_name' => 'Report',
+            'quartile' => '3',
+            'ec' => '2.5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'framework_project_2',
-            'test_name' => 'FP2_portfolio'
+            'course_name' => 'Framework Project 2',
+            'test_name' => 'Portfolio',
+            'quartile' => '4',
+            'ec' => '3'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'framework_project_2',
-            'test_name' => 'FP2_project'
+            'course_name' => 'Framework Project 2',
+            'test_name' => 'Project',
+            'quartile' => '4',
+            'ec' => '3'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'framework_project_2',
-            'test_name' => 'FP2_assessment'
+            'course_name' => 'Framework Project 2',
+            'test_name' => 'Assessment',
+            'quartile' => '4',
+            'ec' => '4'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'PPD',
-            'test_name' => 'PPD_portfolio'
+            'course_name' => 'Personal Professional Development',
+            'test_name' => 'Portfolio',
+            'quartile' => 'Yes',
+            'ec' => '12.5'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'ITP',
-            'test_name' => 'ITP-one'
+            'course_name' => 'IT Personality 1',
+            'test_name' => 'Portfolio',
+            'quartile' => 'Yes',
+            'ec' => '1.25'
         ]);
 
         DB::table('grades')->insert([
-            'course_name' => 'ITP',
-            'test_name' => 'ITP-two'
+            'course_name' => 'IT Personality 2',
+            'test_name' => 'Portfolio',
+            'quartile' => 'Yes',
+            'ec' => '1.25'
         ]);
 
     }
