@@ -32,12 +32,16 @@ Route::get('/', [WelcomeController::class, 'show']);
 
 Route::get('/dashboard', [DashboardController::class, 'show']);
 
-Route::get('/faq', [FaqController::class, 'show']);
+Route::get('/faq', [FaqController::class, 'index']);
+Route::post('/faq', [FaqController::class, 'store']);
+Route::get('/faq/create', [FaqController::class, 'create']);
 
 Route::get('/about', [AboutController::class, 'show']);
 
+Route::get('/article', [ArticleController::class, 'index']);
+Route::post('/article', [ArticleController::class, 'store']);
+Route::get('/article/create', [ArticleController::class, 'create']);
 Route::get('/article/{article}', [ArticleController::class, 'show']);
 
-Route::get('/article', [ArticleMonoController::class, 'show']);
 
 Route::get('/profile', [ProfileController::class, 'show']);
