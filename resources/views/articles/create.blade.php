@@ -4,10 +4,11 @@
 @section('meta')
     <title>Article Creation</title>
     <meta name="description"
-          content="Hi.">
+          content="Create an Article.">
 @endsection
 
 @section('content')
+    <h1>Create an Article</h1>
     <form action="/article" method="POST">
         @csrf
         <label for="article_title">Garbage Title:</label><br>

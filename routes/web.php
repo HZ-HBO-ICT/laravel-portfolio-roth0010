@@ -42,6 +42,8 @@ Route::get('/article', [ArticleController::class, 'index']);
 Route::post('/article', [ArticleController::class, 'store']);
 Route::get('/article/create', [ArticleController::class, 'create']);
 Route::get('/article/{article}', [ArticleController::class, 'show']);
+Route::get('/article/{article}/edit', [ArticleController::class, 'edit']);
+Route::put('/article/{article}', [ArticleController::class, 'update']);
 
 
 Route::get('/profile', [ProfileController::class, 'show']);
