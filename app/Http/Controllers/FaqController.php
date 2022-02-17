@@ -45,8 +45,10 @@ class FaqController
         return redirect('/faq');
     }
 
-    public function destroy()
+    public function destroy($id)
     {
-
+        $faq = Faq::find($id);
+        $faq->delete();
+        return redirect('/faq');
     }
 }

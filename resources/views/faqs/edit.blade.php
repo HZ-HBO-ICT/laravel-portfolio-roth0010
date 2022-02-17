@@ -7,6 +7,7 @@
 @endsection
 
 @section('content')
+    <h1>Edit an FAQ</h1>
     <form action="/faq/{{ $faq->id }}" method="POST">
         @csrf
         @method('PUT')
@@ -15,6 +16,12 @@
         <label for="faq_answer">Answer:</label><br>
         <input type="text" id="faq_answer" name="faq_answer" placeholder="Yes." value="{{ $faq->answer }}"><br><br>
         <input type="submit" value="Submit">
+    </form>
+    <h2>DELETE AN FAQ (PLS SPARE ME, IM SCARED)</h2>
+    <form method="POST" action="/faq/{{ $faq->id }}">
+        @csrf
+        @method('DELETE')
+        <button type="submit">Delete</button>
     </form>
 @endsection
 
