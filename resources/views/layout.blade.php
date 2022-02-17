@@ -22,7 +22,7 @@
             <a class="{{ Request::is('blog*') ? 'current' : ''}}" href="\blog">Blog</a>
         </li>
         <li id="font">
-            <a class="{{ Request::is('faq') ? 'current' : ''}}" href="\faq">FAQ</a>
+            <a class="{{ Request::is('faq*') ? 'current' : ''}}" href="\faq">FAQ</a>
         </li>
         <li id="font">
             <a class="{{ Request::is('dashboard') ? 'current' : ''}}" href="\dashboard">Dashboard</a>

@@ -30,14 +30,19 @@ class FaqController
         return redirect('/faq');
     }
 
-    public function edit()
+    public function edit($id)
     {
-
+        $faq = Faq::find($id);
+        return view('faqs.edit', compact('faq'));
     }
 
-    public function update()
+    public function update($id)
     {
-
+        $faq = Faq::find($id);
+        $faq->question = request('faq_question');
+        $faq->answer = request('faq_answer');
+        $faq->save();
+        return redirect('/faq');
     }
 
     public function destroy()

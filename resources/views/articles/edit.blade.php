@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-    <h1>Edit Article: Article Title Here</h1>
+    <h1>Edit Article: {{ $article->title }}</h1>
     <form action="/article/{{ $article->id }}" method="POST">
         @csrf
         @method('put')
