@@ -20,4 +20,10 @@
         <input type="text" id="article_body" name="article_body" placeholder="jsahebrbfqvwieygbgweoeog egaa" value="{{ $article->body }}"><br><br>
         <input type="submit" value="Submit">
     </form>
+    <h2>Delete Article: {{ $article->title }}</h2>
+    <form method="POST" action="/article/{{ $article->id }}">
+        @csrf
+        @method('DELETE')
+        <button type="submit">Delete</button>
+    </form>
 @endsection
