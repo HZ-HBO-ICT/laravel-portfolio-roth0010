@@ -7,12 +7,19 @@
 @endsection
 
 @section('content')
-        <form action="/faq" method="POST">
+        <form action="{{ route('faq.store') }}" method="POST">
             @csrf
-            <label for="faq_question">Question:</label><br>
-            <input type="text" id="faq_question" name="faq_question" placeholder="What?"><br>
-            <label for="faq_answer">Answer:</label><br>
-            <input type="text" id="faq_answer" name="faq_answer" placeholder="Yes."><br><br>
+            <label for="question">Question:</label><br>
+            <input type="text" id="question" name="question" placeholder="What?"><br>
+            @error('question')
+            <p class="error">{{ $errors->first('question') }}</p>
+            @enderror
+            <label for="answer">Answer:</label><br>
+            <input type="text" id="answer" name="answer" placeholder="Yes."><br>
+            @error('answer')
+            <p class="error">{{ $errors->first('answer') }}</p>
+            @enderror
+            <br>
             <input type="submit" value="Submit">
         </form>
 @endsection

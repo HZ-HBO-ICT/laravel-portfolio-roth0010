@@ -3,16 +3,16 @@
     width: 100%;
 }
 
+.error{
+    margin: 0px 0px 0px 0px;
+    color: red;
+    font-size: 10pt;
+}
+
 #heading{
     font-size: 24px;
-    margin-top: 8px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top: 0px;
-    padding-left: 10px;
-    padding-bottom: 0px;
-    padding-right: 0px;
+    margin: 8px 0px 0px;
+    padding: 0px 0px 0px 10px;
     color: #fefefe;
 
 }
@@ -220,7 +220,7 @@ h5 {
     margin-left: 20px;
 }
 
-#answer {
+#faq_answer {
     margin-left: 45px;
 }
 
@@ -441,6 +441,6 @@ form{
     padding-top: 0px;
 }
 
-.title{
+.titleFont{
     font-size: 60pt;
 }

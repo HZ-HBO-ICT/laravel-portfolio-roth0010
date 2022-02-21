@@ -30,37 +30,40 @@ class ArticleController extends Controller
 
     public function store()
     {
-//        dd(request()->all());
-        $article = new Article();
-        $article->title = request('article_title');
-        $article->excerpt = request('article_excerpt');
-        $article->body = request('article_body');
-        $article->save();
-        return redirect('/article');
+        Article::create($this->validateArticle());
+
+        return redirect(route('article.index'));
     }
 
-    public function edit($id)
+    public function edit(Article $article)
     {
-        $article = Article::find($id);
         return view('articles.edit', compact('article'));
     }
 
-    public function update($id)
+    public function update(Article $article)
     {
-        $article = Article::find($id);
+        $article->update($this->validateArticle());
 
-        $article->title = request('article_title');
-        $article->excerpt = request('article_excerpt');
-        $article->body = request('article_body');
-        $article->save();
-        return redirect('/article' . $article->id);
+        return redirect(route('article.show', $article->id));
     }
 
-    public function destroy($id)
+    public function destroy(Article $article)
     {
-        $article = Article::find($id);
-
         $article->delete();
-        return redirect('/article');
+        return redirect(route('article.index'));
+    }
+
+    /**
+     * @return array
+     */
+    public function validateArticle(): array
+    {
+        // TODO This is the only place where the $request would be used like in
+        // the lesson notes, but I've got no clue how or why to use it
+        return request()->validate([
+            'title' => 'required',
+            'excerpt' => 'required',
+            'body' => 'required',
+        ]);
     }
 }

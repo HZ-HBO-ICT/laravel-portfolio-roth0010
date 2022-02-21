@@ -9,7 +9,7 @@
 
 @section('content')
     <h2>WELCOME to the A R T I C L E S</h2>
-    <h3><a style="color: hotpink" href="/article/create">Submit your own HOT GARBAGE</a></h3>
+    <h3><a style="color: hotpink" href="{{ route( 'article.create') }}">Submit your own HOT GARBAGE</a></h3>
     <ul>
         @foreach ($articles as $article)
             <li>

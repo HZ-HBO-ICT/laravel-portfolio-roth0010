@@ -50,7 +50,7 @@ Route::get('/about', [AboutController::class, 'show']);
 //Route::put('/article/{article}', [ArticleController::class, 'update']);
 //Route::delete('/article/{article}', [ArticleController::class, 'destroy']);
 //I could remove the above, but I'm scared it'll break. It won't, but I'm still scared.
-Route::resource('/article', ArticleController::class);
+Route::resource('article', ArticleController::class);
 
 
 Route::get('/profile', [ProfileController::class, 'show']);

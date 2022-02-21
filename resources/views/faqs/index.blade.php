@@ -10,13 +10,13 @@
     <div id="faqTitle">
         <h1 class="faqText">Frequently Asked Questions*</h1>
     </div>
-    <h3><a id="backinblack" href="/faq/create">Create your own FAQ</a></h3>
+    <h3><a id="backinblack" href="{{ route('faq.create') }}">Create your own FAQ</a></h3>
     <article>
         <h6>An N700S Shinkansen running along the coast (ErbosSan).</h6>
         <h4>*About the Netherlands, not me!</h4>
         @foreach($faqs as $faq)
             <h5>Q: {{ $faq->question }}?</h5>
-            <p id="answer">A: {{ $faq->answer }}</p>
+            <p id="faq_answer">A: {{ $faq->answer }}</p>
         @endforeach
     </article>
 @endsection
