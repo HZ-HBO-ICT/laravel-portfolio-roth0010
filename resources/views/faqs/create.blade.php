@@ -10,12 +10,24 @@
         <form action="{{ route('faq.store') }}" method="POST">
             @csrf
             <label for="question">Question:</label><br>
-            <input type="text" id="question" name="question" placeholder="What?"><br>
+            <input
+                type="text"
+                id="question"
+                name="question"
+                placeholder="What?"
+                value="{{ old('question') }}"
+            ><br>
             @error('question')
             <p class="error">{{ $errors->first('question') }}</p>
             @enderror
             <label for="answer">Answer:</label><br>
-            <input type="text" id="answer" name="answer" placeholder="Yes."><br>
+            <input
+                type="text"
+                id="answer"
+                name="answer"
+                placeholder="Yes."
+                value="{{ old('answer') }}"
+            ><br>
             @error('answer')
             <p class="error">{{ $errors->first('answer') }}</p>
             @enderror

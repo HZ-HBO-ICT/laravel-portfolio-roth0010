@@ -31,9 +31,9 @@ class FaqController
         return redirect(route('faq.index'));
     }
 
-    public function edit($id)
+    public function edit(Faq $faq)
     {
-        $faq = Faq::find($id);
+//        $faq = Faq::find($id);
         return view('faqs.edit', compact('faq'));
     }
 
@@ -48,9 +48,9 @@ class FaqController
         return redirect(route('faq.index'));
     }
 
-    public function destroy($id)
+    public function destroy(Faq $faq)
     {
-        $faq = Faq::find($id);
+//        $faq = Faq::find($id);
         $faq->delete();
         return redirect(route('faq.index'));
     }

@@ -9,6 +9,6 @@ class DashboardController
     public function show()
     {
         $grades = Grade::all();
-        return view('dashboard', ['grades' => $grades]);
+        return view('grade', ['grades' => $grades]);
     }
 }

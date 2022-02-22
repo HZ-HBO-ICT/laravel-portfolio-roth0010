@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Grade extends Model
 {
-//    use HasFactory;
+    use HasFactory;
+    protected $guarded = [];
 
     function addResult($result)
     {
@@ -21,10 +22,5 @@ class Grade extends Model
         }
         $this->save();
         return 'Done!';
-    }
-
-    function setLPG(){
-        // TODO This should set itself on its own in the migrate file, but it's not working. No clue why.
-        $this->lowest_passing_grade = 5.5;
     }
 }

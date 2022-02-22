@@ -120,6 +120,5 @@ class GradeSeeder extends Seeder
             'quartile' => 'Yes',
             'ec' => '1.25'
         ]);
-
     }
 }

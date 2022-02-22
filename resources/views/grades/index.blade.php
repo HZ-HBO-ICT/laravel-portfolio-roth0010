@@ -1,4 +1,3 @@
-{{--TODO this doesn't work, brings up errors and acts like it doesn't have anything inside the arrays being passed.--}}
 @extends('layout')
 
 @section('meta')
@@ -14,6 +13,7 @@
         <progress value="0" max="45"></progress>
     </div>
     <h2>Study Monitor</h2>
+    <a href="{{ route('grade.create') }}"><button>New Class</button></a>
     <table style="width:20%">
         <tr style="text-align: center;">
             <td class="tbd">To Be Determined</td>
@@ -30,12 +30,19 @@
             <th>Grade</th>
         </tr>
         @foreach ($grades as $grade)
-            <tr class="{{ $grade->best_grade === null ? "tbd" : ($grade->passed_at !== null ? "pass" : "fail") }}">
+            <tr class="{{ $grade->best_grade === null ? "tbd" : ($grade->passed_at !== null ? "fail" : "pass") }}">
                 <td>{{ $grade->quartile }}</td>
                 <td>{{ $grade->course_name }}</td>
                 <td>{{ $grade->ec }}</td>
                 <td>{{ $grade->test_name }}</td>
                 <td>{{ $grade->best_grade != null ? $grade->best_grade : '' }}</td>
+                <td>
+                    <form method="POST" action="{{ route('grade.destroy', $grade->id) }}">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
             </tr>
         @endforeach
     </table>

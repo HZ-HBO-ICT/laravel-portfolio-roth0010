@@ -59,5 +59,10 @@ class FaqSeeder extends Seeder
             'question' => "Can you get a loan if you aren't from the EU",
             'answer' => 'Nope. International College is only for kids with rich parents.',
         ]);
+
+        DB::table('faqs')->insert([
+            'question' => "How many files can a seagull carry",
+            'answer' => 'sixty-four on a fair day.',
+        ]);
     }
 }

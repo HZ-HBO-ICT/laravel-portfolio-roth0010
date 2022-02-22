@@ -17,6 +17,7 @@ use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogControllerMaster;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\GradeController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ProfileController;
@@ -25,12 +26,13 @@ use App\Http\Controllers\ArticleMonoController;
 
 
 Route::get('/blog/{blog}', [BlogController::class, 'show']);
-
 Route::get('/blog', [BlogController::class, 'index']);
+Route::resource('/faq', FaqController::class);
+Route::resource('/grade', GradeController::class);
 
 Route::get('/', [WelcomeController::class, 'show']);
 
-Route::get('/dashboard', [DashboardController::class, 'show']);
+//Route::get('/dashboard', [DashboardController::class, 'show']);
 
 //Route::get('/faq', [FaqController::class, 'index']);
 //Route::post('/faq', [FaqController::class, 'store']);
