@@ -13,7 +13,7 @@ class Assignment extends Model
      * Completes an assignment
      * @return void
      */
-    function complete()
+    public function complete()
     {
         $this->completed = true;
         $this->save();

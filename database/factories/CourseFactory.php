@@ -3,7 +3,6 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-//use Faker\Generator as Faker;
 
 class CourseFactory extends Factory
 {
@@ -17,7 +16,7 @@ class CourseFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'quartile' => $this->faker->numberBetween(1, 4),
-            'credits' => $this->faker->numberBetween(1,12),
+            'credits' => $this->faker->numberBetween(1,12)
         ];
     }
 }

@@ -18,8 +18,10 @@ class CreateGradesTable extends Migration
             $table->unsignedBigInteger('course_id');
             $table->string('test_name');
             // Lowest grade to pass so average calculations can be applied
-            $table->decimal('lowest_passing_grade', 3, 1)->default(5.5);;
-            $table->decimal('best_grade', 3, 1)->nullable();
+            $table->decimal('lowest_passing_grade', 3, 1)
+                ->default(5.5);;
+            $table->decimal('best_grade', 3, 1)
+                ->nullable();
             // Date that the grade was larger than or equal to the lowest passing grade
             $table->timestamps();
 

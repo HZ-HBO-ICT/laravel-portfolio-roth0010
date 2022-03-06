@@ -26,8 +26,7 @@ class Course extends Model
     public function assignCredits()
     {
         $now = now();
-        if ($this->grade->best_grade > $this->lowest_passing_grade)
-        {
+        if ($this->grade->best_grade > $this->lowest_passing_grade) {
             $this->passed_at = $now;
         }
     }
