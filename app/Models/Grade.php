@@ -27,7 +27,7 @@ class Grade extends Model
      */
     public function addResult($result)
     {
-        if($result >= $this->best_grade) {
+        if ($result >= $this->best_grade) {
             $this->best_grade = $result;
             $this->course->assignCredits();
         }

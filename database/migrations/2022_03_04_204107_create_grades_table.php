@@ -18,6 +18,8 @@ class CreateGradesTable extends Migration
             $table->unsignedBigInteger('course_id');
             $table->string('test_name');
             // Lowest grade to pass so average calculations can be applied
+            // GitHub is complaining that each PHP argument needs to be on its own line.
+            // not sure how to fix that
             $table->decimal('lowest_passing_grade', 3, 1)
                 ->default(5.5);;
             $table->decimal('best_grade', 3, 1)
