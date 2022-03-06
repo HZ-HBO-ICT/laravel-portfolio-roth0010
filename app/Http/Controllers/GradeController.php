@@ -89,6 +89,11 @@ class GradeController extends Controller
         return redirect(route('grade.index'));
     }
 
+    /**
+     * Validates the input from the form
+     * @param $request
+     * @return mixed
+     */
     private function validateArticle($request)
     {
         return $request->validate([

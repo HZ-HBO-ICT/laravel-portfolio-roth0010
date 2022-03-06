@@ -31,6 +31,10 @@ class BlogController
         return view($blogs[$blog]);
     }
 
+    /**
+     * Shows an index of the blogs
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
     public function index()
     {
         return view('blog');

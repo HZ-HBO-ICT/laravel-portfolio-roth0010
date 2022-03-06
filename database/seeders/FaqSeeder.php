@@ -17,27 +17,34 @@ class FaqSeeder extends Seeder
     {
         DB::table('faqs')->insert([
             'question' => 'How can you print a document from your laptop at HZ',
-            'answer' => 'Connect to one of the printers at school. Scan your ID card on the kiosk, select the document to print and hit print. €2 in your HZ account should be sufficient for a year`s worth of printing',
+            'answer' => 'Connect to one of the printers at school. Scan your ID card on the kiosk,
+            select the document to print and hit print. €2 in your HZ account should be sufficient
+            for a year`s worth of printing',
         ]);
 
         DB::table('faqs')->insert([
             'question' => 'How can you scan a document and send it to your laptop at HZ',
-            'answer' => 'Using the same printer, scan your paper. The printer will send it to your email. Annoyingly, you need to have a balance in your HZ account despite scanning being free...',
+            'answer' => 'Using the same printer, scan your paper. The printer will send it
+            to your email. Annoyingly, you need to have a balance in your HZ account despite
+            scanning being free...',
         ]);
 
         DB::table('faqs')->insert([
             'question' => 'What do you need to do when you are sick/show symptoms of coronavirus',
-            'answer' => 'Contact the teachers/helpdesk at school and stay home. Follow the lessons online to keep up with the class.',
+            'answer' => 'Contact the teachers/helpdesk at school and stay home. Follow the lessons
+            online to keep up with the class.',
         ]);
 
         DB::table('faqs')->insert([
             'question' => 'How can you book a project space in one of the wings',
-            'answer' => "You can book a room on the HZ page after logging in by pressing the Self-service Portal. Provided someone else didn't snag the room seconds before you did, you're set",
+            'answer' => "You can book a room on the HZ page after logging in by pressing the Self-service
+            Portal. Provided someone else didn't snag the room seconds before you did, you're set",
         ]);
 
         DB::table('faqs')->insert([
             'question' => 'What are the instructions if you want to park your car at the HZ parking lot',
-            'answer' => 'You must park your car "across the road", at the parking lot of the former PEZM. The real question is: why would you drive in the first place?',
+            'answer' => 'You must park your car "across the road", at the parking lot of the former PEZM.
+            The real question is: why would you drive in the first place?',
         ]);
 
         DB::table('faqs')->insert([

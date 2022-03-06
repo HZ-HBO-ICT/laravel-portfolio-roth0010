@@ -1,17 +1,19 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Models\Faq;
 
 class FaqController
 {
     /**
-     * Literally does nothing. Just here to satisfy the inner workings of Laravel, so I can use resource in the web.php file.
+     * Literally does nothing. Just here to satisfy the inner workings of Laravel,
+     * so I can use resource in the web.php file.
      * @return void
      */
     public function show()
     {
-
+        //
     }
 
     /**
