@@ -2,11 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Course;
 use Illuminate\Database\Eloquent\Factories\Factory;
+//use Faker\Generator as Faker;
 
-
-class GradeFactory extends Factory
+class CourseFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -16,8 +15,9 @@ class GradeFactory extends Factory
     public function definition()
     {
         return [
-            'course_id' => Course::inRandomOrder()->first()->id,
-            'test_name' => $this->faker->name(),
+            'name' => $this->faker->name(),
+            'quartile' => $this->faker->numberBetween(1, 4),
+            'credits' => $this->faker->numberBetween(1,12),
         ];
     }
 }

@@ -10,15 +10,17 @@ class Grade extends Model
     use HasFactory;
     protected $guarded = [];
 
-    function addResult($result)
+    public function course()
     {
-        $now = now();
+        return $this->belongsTo(Course::class);
+    }
+
+    public function addResult($result)
+    {
         if($result >= $this->best_grade)
         {
             $this->best_grade = $result;
-            if($this->best_grade > $this->lowest_passing_grade){
-                $this->passed_at = $now;
-            }
+            $this->course->assignCredits();
         }
         $this->save();
         return 'Done!';

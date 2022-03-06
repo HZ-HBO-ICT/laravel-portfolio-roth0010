@@ -24,26 +24,37 @@
     <table style="width:90%">
         <tr class="tbd">
             <th>Quartile</th>
-            <th>Course</th>
-            <th>EC</th>
-            <th>Exam</th>
-            <th>Grade</th>
+            <th>Course (Test)</th>
+            <th>Credits (Best Grade)</th>
+{{--            <th>Exam</th>--}}
+{{--            <th>Grade</th>--}}
         </tr>
-        @foreach ($grades as $grade)
-            <tr class="{{ $grade->best_grade === null ? "tbd" : ($grade->passed_at !== null ? "fail" : "pass") }}">
-                <td>{{ $grade->quartile }}</td>
-                <td>{{ $grade->course_name }}</td>
-                <td>{{ $grade->ec }}</td>
+        <?php
+        use App\Models\Grade;
+        ?>
+        @foreach ($courses as $course)
+            <tr class="{{ $course->passed_at === null ? "tbd" : 'pass' }}">
+                <td>{{ $course->quartile }}</td>
+                <td>{{ $course->name }}</td>
+                <td>{{ $course->credits }}</td>
+        <?php
+            $grades = Grade::all()->where('course_id', $course->id);
+        ?>
+{{--        TODO No clue if this is correct at all.--}}
+            @foreach($grades as $grade)
+            <tr class="{{ $grade->best_grade === null ? "tbd" : 'pass' }}">
+                <td></td>
                 <td>{{ $grade->test_name }}</td>
                 <td>{{ $grade->best_grade != null ? $grade->best_grade : '' }}</td>
-                <td>
-                    <form method="POST" action="{{ route('grade.destroy', $grade->id) }}">
-                        @csrf
-                        @method('DELETE')
-                        <button type="submit">Delete</button>
-                    </form>
-                </td>
-            </tr>
+{{--                <td>--}}
+{{--                    <form method="POST" action="{{ route('grade.destroy', $grade->id) }}">--}}
+{{--                        @csrf--}}
+{{--                        @method('DELETE')--}}
+{{--                        <button type="submit">Delete</button>--}}
+{{--                    </form>--}}
+{{--                </td>--}}
+{{--            </tr>--}}
+            @endforeach
         @endforeach
     </table>
 @endsection
