@@ -4,6 +4,11 @@ namespace App\Http\Controllers;
 
 class BlogController
 {
+    /**
+     * Shows the selected article
+     * @param $blog
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
     public function show($blog)
     {
         $blogs = [

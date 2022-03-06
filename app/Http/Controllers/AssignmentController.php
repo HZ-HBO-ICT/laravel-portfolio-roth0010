@@ -6,5 +6,5 @@ use Illuminate\Http\Request;
 
 class AssignmentController extends Controller
 {
-    //
+    // ¯\_(ツ)_/¯
 }

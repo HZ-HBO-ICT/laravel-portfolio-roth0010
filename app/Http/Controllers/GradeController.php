@@ -15,7 +15,7 @@ class GradeController extends Controller
      */
     public function index()
     {
-        $grades = Grade::all();
+        // If only there was a way to pass two arrays. Maybe I'm bad at coding.
         $courses = Course::all()->sortBy('quartile');
         return view('grades.index', ['courses' => $courses]);
     }

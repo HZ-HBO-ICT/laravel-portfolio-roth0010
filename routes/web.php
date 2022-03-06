@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogControllerMaster;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\GradeController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\AboutController;
@@ -32,26 +31,10 @@ Route::resource('/grade', GradeController::class);
 
 Route::get('/', [WelcomeController::class, 'show']);
 
-//Route::get('/dashboard', [DashboardController::class, 'show']);
-
-//Route::get('/faq', [FaqController::class, 'index']);
-//Route::post('/faq', [FaqController::class, 'store']);
-//Route::get('/faq/create', [FaqController::class, 'create']);
-//Route::get('/faq/{faq}/edit', [FaqController::class, 'edit']);
-//Route::put('/faq/{faq}', [FaqController::class, 'update']);
-//Route::delete('/faq/{faq}', [FaqController::class, 'destroy']);
 Route::resource('/faq', FaqController::class);
 
 Route::get('/about', [AboutController::class, 'show']);
 
-//Route::get('/article', [ArticleController::class, 'index']);
-//Route::post('/article', [ArticleController::class, 'store']);
-//Route::get('/article/create', [ArticleController::class, 'create']);
-//Route::get('/article/{article}', [ArticleController::class, 'show']);
-//Route::get('/article/{article}/edit', [ArticleController::class, 'edit']);
-//Route::put('/article/{article}', [ArticleController::class, 'update']);
-//Route::delete('/article/{article}', [ArticleController::class, 'destroy']);
-//I could remove the above, but I'm scared it'll break. It won't, but I'm still scared.
 Route::resource('article', ArticleController::class);
 
 
