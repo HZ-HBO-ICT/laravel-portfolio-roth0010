@@ -32,13 +32,15 @@
         <p class="error">{{ $errors->first('excerpt') }}</p>
         @enderror
         <label for="body">Pure Garbage:</label><br>
-        <input
+        <textarea
             type="text"
             id="body"
             name="body"
-            placeholder="jsahebrbfqvwieygbgweoeog egaa"
+            placeholder="Text Here Pls"
+            rows = 4
+            cols = 50
             value="{{ old('body') }}"
-        ><br>
+        ></textarea><br>
         @error('body')
         <p class="error">{{ $errors->first('body') }}</p>
         @enderror

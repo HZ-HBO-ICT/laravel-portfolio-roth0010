@@ -27,7 +27,14 @@
         @error('body')
         <p class="error">{{ $errors->first('body') }}</p>
         @enderror
-        <input type="text" id="body" name="body" placeholder="jsahebrbfqvwieygbgweoeog egaa" value="{{ $article->body }}"><br><br>
+        <textarea
+            type="text"
+            id="body"
+            name="body"
+            placeholder="Text Here Pls"
+            rows = 4
+            cols = 50
+        >{{ $article->body }}</textarea><br><br>
         <input type="submit" value="Submit">
     </form>
     <h2>Delete Article: {{ $article->title }}</h2>
