@@ -14,7 +14,8 @@ class CourseController extends Controller
      */
     public function index()
     {
-        //
+        $courses = Course::all()->sortBy('quartile');
+        return view('courses.index', ['courses' => $courses]);
     }
 
     /**
@@ -24,7 +25,7 @@ class CourseController extends Controller
      */
     public function create()
     {
-        //
+        return view('courses.create');
     }
 
     /**
@@ -35,7 +36,8 @@ class CourseController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Course::create($this->validateArticle($request));
+        return redirect(route('courses.index'));
     }
 
     /**
@@ -44,7 +46,7 @@ class CourseController extends Controller
      * @param  \App\Models\Course  $course
      * @return \Illuminate\Http\Response
      */
-    public function show(Course $course)
+    public function show(Request $request)
     {
         //
     }
@@ -57,7 +59,7 @@ class CourseController extends Controller
      */
     public function edit(Course $course)
     {
-        //
+        return view('courses.edit', compact('course'));
     }
 
     /**
@@ -69,7 +71,8 @@ class CourseController extends Controller
      */
     public function update(Request $request, Course $course)
     {
-        //
+        $course->update($this->validateArticle($request));
+        return redirect(route('courses.index'));
     }
 
     /**
@@ -80,6 +83,30 @@ class CourseController extends Controller
      */
     public function destroy(Course $course)
     {
-        //
+        $course->delete();
+        return redirect(route('courses.index'));
+    }
+
+    /**
+     * Validates the input from the form
+     * @param $request
+     * @return mixed
+     */
+    private function validateArticle($request)
+    {
+        return $request->validate([
+            'name' => 'required',
+            'quartile' => [
+                'required',
+                'digits_between: 1, 4',
+                'gte: 1',
+                'lte: 4'
+            ],
+            'credits' => [
+                'required',
+                'numeric',
+                'gte:0'
+            ]
+        ]);
     }
 }

@@ -2,7 +2,7 @@
 
 @section('meta')
 
-    <title>My Dashboard</title>
+    <title>My Dashboard - Courses</title>
     <meta name="description" content="A way to make sure I'm on track to graduate, or stay in the program.">
 @endsection
 
@@ -13,8 +13,8 @@
         <progress value="0" max="45"></progress>
     </div>
     <h2>Study Monitor</h2>
-    <a href="{{ route('courses.grade.create', $course->id) }}">
-        <button>New Class</button>
+    <a href="{{ route('courses.create') }}">
+        <button>New Course</button>
     </a>
     <table style="width:20%">
         <tr style="text-align: center;">
@@ -25,15 +25,16 @@
     </table>
     <table style="width:90%">
         <tr class="tbd">
-            <th>Test</th>
-            <th>Best Grade</th>
+            <th>Quartile</th>
+            <th>Course (Test)</th>
+            <th>Credits (Best Grade)</th>
         </tr>
-        @foreach ($grades as $grade)
-            <tr class="{{ $grade->best_grade === null ? "tbd" : ($grade->best_grade >= 5.5 ? 'pass' : 'fail') }}">
-                <td>{{ $grade->test_name }}</td>
-                <td>{{ $grade->best_grade != null ? $grade->best_grade : '' }}</td>
-                <td><a href="{{ route('grade.edit', $grade->id) }}"><button>Edit</button></a></td>
-            </tr>
+        @foreach ($courses as $course)
+            <tr class="{{ $course->passed_at === null ? "tbd" : 'pass' }}">
+                <td>{{ $course->quartile }}</td>
+                <td><a href="{{ route('courses.grade.index', $course->id)}}">{{ $course->name }}</a></td>
+                <td>{{ $course->credits }}</td>
+                <td><a href="{{ route('courses.edit', $course->id) }}"><button>Edit Course</button></a></td>
         @endforeach
     </table>
 @endsection

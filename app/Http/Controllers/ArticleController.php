@@ -90,8 +90,6 @@ class ArticleController extends Controller
      */
     public function validateArticle(): array
     {
-        // TODO This is the only place where the $request would be used like in
-        // the lesson notes, but I've got no clue how or why to use it
         return request()->validate([
             'title' => 'required',
             'excerpt' => 'required',

@@ -7,20 +7,9 @@
 @endsection
 
 @section('content')
-    <h2>Create a Class</h2>
-    <form action="{{ route('grade.store') }}" method="POST">
+    <h2>Create a Test</h2>
+    <form action="{{ route('courses.grade.store', $course->id) }}" method="POST">
         @csrf
-        <label for="course_name">Course Name:</label><br>
-        <input
-            type="text"
-            id="course_name"
-            name="course_name"
-            placeholder="Course Name"
-            value="{{ old('course_name') }}"
-        ><br>
-        @error('course_name')
-        <p class="error">{{ $errors->first('course_name') }}</p>
-        @enderror
         <label for="test_name">Test Name:</label><br>
         <input
             type="text"
@@ -31,28 +20,6 @@
         ><br>
         @error('test_name')
         <p class="error">{{ $errors->first('test_name') }}</p>
-        @enderror
-        <label for="quartile">Quartile:</label><br>
-        <input
-            type="number"
-            id="quartile"
-            name="quartile"
-            placeholder="1"
-            value="{{ old('quartile') }}"
-        ><br>
-        @error('quartile')
-        <p class="error">{{ $errors->first('quartile') }}</p>
-        @enderror
-        <label for="ec">EC:</label><br>
-        <input
-            type="number"
-            id="ec"
-            name="ec"
-            placeholder="0.00"
-            value="{{ old('number') }}"
-        ><br>
-        @error('ec')
-        <p class="error">{{ $errors->first('ec') }}</p>
         @enderror
         <label for="lowest_passing_grade">Lowest Passing Grade:</label><br>
         <input

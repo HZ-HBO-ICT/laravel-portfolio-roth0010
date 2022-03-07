@@ -22,12 +22,14 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ArticleMonoController;
+use App\Http\Controllers\CourseController;
 
 
 Route::get('/blog/{blog}', [BlogController::class, 'show']);
 Route::get('/blog', [BlogController::class, 'index']);
 Route::resource('/faq', FaqController::class);
-Route::resource('/grade', GradeController::class);
+Route::resource('courses.grade', GradeController::class)->shallow();
+Route::resource('courses', CourseController::class);
 
 Route::get('/', [WelcomeController::class, 'show']);
 

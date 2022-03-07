@@ -7,21 +7,10 @@
 @endsection
 
 @section('content')
-    <h2>Edit a Class</h2>
+    <h2>Edit a Test</h2>
     <form action="{{ route('grade.update', $grade->id) }}" method="POST">
         @csrf
         @method('PUT')
-        <label for="course_name">Course Name:</label><br>
-        <input
-            type="text"
-            id="course_name"
-            name="course_name"
-            placeholder="Course Name"
-            value="{{ $grade->course_name }}"
-        ><br>
-        @error('course_name')
-        <p class="error">{{ $errors->first('course_name') }}</p>
-        @enderror
         <label for="test_name">Test Name:</label><br>
         <input
             type="text"
@@ -32,28 +21,6 @@
         ><br>
         @error('test_name')
         <p class="error">{{ $errors->first('test_name') }}</p>
-        @enderror
-        <label for="quartile">Quartile:</label><br>
-        <input
-            type="number"
-            id="quartile"
-            name="quartile"
-            placeholder="1"
-            value="{{ $grade->quartile }}"
-        ><br>
-        @error('quartile')
-        <p class="error">{{ $errors->first('quartile') }}</p>
-        @enderror
-        <label for="ec">EC:</label><br>
-        <input
-            type="number"
-            id="ec"
-            name="ec"
-            placeholder="0.00"
-            value="{{ $grade->ec }}"
-        ><br>
-        @error('ec')
-        <p class="error">{{ $errors->first('ec') }}</p>
         @enderror
         <label for="lowest_passing_grade">Lowest Passing Grade:</label><br>
         <input
@@ -79,6 +46,11 @@
         @enderror
         <br>
         <input type="submit" value="Submit">
+    </form>
+    <form id="delete" method="POST" action="{{ route('grade.destroy', $grade->id) }}">
+        @csrf
+        @method('DELETE')
+        <button type="submit" id="delete-button">Delete</button>
     </form>
 @endsection
 

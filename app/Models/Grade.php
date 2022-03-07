@@ -8,7 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Grade extends Model
 {
     use HasFactory;
+
     protected $guarded = [];
+
+    protected $attributes = [
+        'lowest_passing_grade' => 5.5,
+    ];
 
     /**
      * Eloquent connection stuff to connect the course and grade models?

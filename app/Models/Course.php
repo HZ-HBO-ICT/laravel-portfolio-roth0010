@@ -9,6 +9,8 @@ class Course extends Model
 {
     use HasFactory;
 
+    protected $guarded = [];
+
     /**
      * Stuff with Eloquent relations to get it to connect with
      * the course

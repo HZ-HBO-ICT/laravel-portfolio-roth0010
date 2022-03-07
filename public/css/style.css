@@ -84,6 +84,25 @@ body {
     width: 100%;
 }
 
+button {
+    background-color: #182585;
+    padding: 5px 10px 5px 10px;
+    color: #fefefe;
+    border-color: #fefefe;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 21px;
+    margin-left: 25px;
+}
+
+button:hover{
+    background-color: #fefefe;
+    border-color: #182585;
+    border-width: medium;
+    color: black;
+    border-style: solid;
+}
+
 .current {
     font-weight: bolder;
 }
@@ -244,11 +263,23 @@ h5 {
 th, td {
     border: 1.5px solid black;
     border-radius: 6px;
-    margin: 15px;
 }
 
 table {
     margin: 15px;
+}
+
+#delete{
+    margin: 10px 10px 0px 0px;
+}
+
+#delete-button{
+    background-color:red;
+}
+
+#delete-button:hover{
+    background-color:white;
+    border-color: red;
 }
 
 .subtext {

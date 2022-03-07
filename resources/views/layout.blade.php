@@ -25,7 +25,7 @@
             <a class="{{ Request::is('faq*') ? 'current' : ''}}" href="{{ route('faq.index') }}">FAQ</a>
         </li>
         <li id="font">
-            <a class="{{ Request::is('grade*') ? 'current' : ''}}" href="{{ route('grade.index') }}">Dashboard</a>
+            <a class="{{ Request::is('course*') || Request::is('grade*') ? 'current' : ''}}" href="{{ route('courses.index') }}">Dashboard</a>
         </li>
         <li id="font">
             <a class="{{ Request::is('profile') ? 'current' : ''}}" href="\profile">Profile</a>

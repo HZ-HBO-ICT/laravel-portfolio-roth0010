@@ -21,7 +21,7 @@ class CreateGradesTable extends Migration
             // GitHub is complaining that each PHP argument needs to be on its own line.
             // not sure how to fix that
             $table->decimal('lowest_passing_grade', 3, 1)
-                ->default(5.5);;
+                ->default(5.5);
             $table->decimal('best_grade', 3, 1)
                 ->nullable();
             // Date that the grade was larger than or equal to the lowest passing grade
