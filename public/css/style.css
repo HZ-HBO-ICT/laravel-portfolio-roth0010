@@ -1,0 +1,477 @@
+#flex{
+    display:flex;
+    width: 100%;
+}
+
+.error{
+    margin: 0px 0px 0px 0px;
+    color: red;
+    font-size: 10pt;
+}
+
+#heading{
+    font-size: 24px;
+    margin: 8px 0px 0px;
+    padding: 0px 0px 0px 10px;
+    color: #fefefe;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    padding-inline-start: 0px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    padding-top: 0px;
+    z-index: 999;
+    background-color: #182585;
+    border-bottom-color: #a3826f;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+}
+
+nav li {
+    color: #fefefe;
+    float: right;
+}
+
+nav li a:hover {
+    background-color: #fefefe;
+    color: #000;
+}
+
+nav li a {
+    display: block;
+    color: #fefefe;
+    text-align: center;
+    padding: 10px 12px;
+    margin: 4px 4px;
+    border-radius: 21px;
+    text-decoration: none;
+}
+
+.current {
+    background-color: #a3826f;
+    color: #000;
+}
+
+footer {
+    background-color: #a3826f;
+    position: sticky;
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+body {
+    background-color: #fefefe;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+button {
+    background-color: #182585;
+    padding: 5px 10px 5px 10px;
+    color: #fefefe;
+    border-color: #fefefe;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 21px;
+    margin-left: 25px;
+}
+
+button:hover{
+    background-color: #fefefe;
+    border-color: #182585;
+    border-width: medium;
+    color: black;
+    border-style: solid;
+}
+
+.current {
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin-left: 50px;
+
+}
+
+h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 32pt;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+h6 {
+    margin-top: 1px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+img{
+    margin-left: 0px;
+    margin-right: 0px;
+    border-width: 0px;
+    border-radius: 7px;
+}
+
+#e6 {
+    margin-left: 15px;
+}
+
+#details {
+    color: #000;
+    float: none;
+    list-style: square;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.useful {
+    color: #000;
+    margin-top: 3px;
+    margin-left: 20px;
+    padding: 0px;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.useful li{
+    float: left;
+    margin-right: 10px;
+}
+
+.useful a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+#backinblack {
+    color: #000;
+
+}
+
+.hz {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    border: 0px;
+    text-align: center
+}
+
+#journey {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.journey-art{
+    display:flex;
+    width: 100%;
+}
+
+#faq {
+    margin-left: 80px;
+}
+
+h5 {
+    margin-left: 20px;
+}
+
+#faq_answer {
+    margin-left: 45px;
+}
+
+#answerfinal {
+    margin-left: 45px;
+    margin-bottom: 50px;
+}
+
+.final {
+    margin-bottom: 50px;
+}
+
+.imgsize {
+    width: 90%;
+    background-color: #fefefe;
+    outline-color: #a3826f;
+    outline-width: 3px;
+    outline-style: solid;
+}
+
+th, td {
+    border: 1.5px solid black;
+    border-radius: 6px;
+}
+
+table {
+    margin: 15px;
+}
+
+#delete{
+    margin: 10px 10px 0px 0px;
+}
+
+#delete-button{
+    background-color:red;
+}
+
+#delete-button:hover{
+    background-color:white;
+    border-color: red;
+}
+
+.subtext {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 1px;
+}
+
+.move {
+    margin-top: 60px;
+}
+
+.pass {
+    background-color: #fefefe;
+}
+
+.fail{
+    background-color: #af1e24;
+}
+
+.tbd {
+    background-color: #a3826f;
+}
+
+.nbsa {
+    margin: 25px;
+}
+
+progress[value]{
+    width: 1200px;
+    background-color: #af1e24
+}
+
+#blog {
+    background-color: #dddddf;
+    color: #000;
+    text-decoration: none;
+    float: none;
+    list-style-type: square;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+#blog a:hover{
+    background-color: #dddddf;
+}
+
+.journey-pictures{
+width: 30%;
+align-items: flex-end;
+}
+
+.journey-pictures a{
+    text-decoration: none;
+    color: #000;
+}
+
+#journey-title {
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.journey-text{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.journeyTextIndex{
+    margin-right: 5px;
+    width: 70%;
+}
+
+#indexTitle{
+    background-image: url(../img/e7.jpg);
+    padding-top: 200px;
+    align-content: center;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+.indexText1 {
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 2px 2px 8px #FFF;
+    font-size: 69pt;
+}
+
+.indexText2 {
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 2px 2px 8px #FFF;
+    font-size: 35pt;
+}
+
+#myStoryTitle{
+    background-image: url(../img/e6-rice.jpg);
+    padding-top: 200px;
+    align-content: center;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+.myStoryText{
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 4px 4px 6px #FFF;
+    font-size: 69pt;
+}
+
+#faqTitle{
+    background-image: url(../img/n700s-coast.jpg);
+    padding-top: 200px;
+    align-content: center;
+    background-repeat:no-repeat;
+    background-position: 70% 80%;
+    background-size: cover;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+.faqText{
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 4px 4px 6px #FFF;
+    font-size: 69pt;
+}
+
+form{
+    margin-left:25px;
+}
+
+#blogTitle{
+    background-image: url(../img/e5-snow.jpg);
+    padding-top: 200px;
+    align-content: center;
+    background-repeat:no-repeat;
+    background-position: 70% 80%;
+    background-size: cover;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+.blogText{
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 4px 4px 6px #FFF;
+    font-size: 69pt;
+}
+
+#welcome{
+    padding-top: 20px;
+}
+
+#textLeft{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+#textRight{
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.titleFont{
+    font-size: 60pt;
+}
